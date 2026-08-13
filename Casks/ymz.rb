@@ -4,22 +4,22 @@ cask "ymz" do
 
   on_macos do
     on_intel do
-      sha256 "9535734e27bf67f8c973f297f96656ff0aee3bf439ddc4329ad53106487716ac"
+      sha256 "edb0a6e14477161a37b5eb639b3a7fe9d92c185795c4a59ef780b46d15e2019e"
       url "https://github.com/yyZe0122/YunmengZe-Agent/releases/download/v#{version}/ymz_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "c4807b897d52c5fbc5a989bd17963d890dd2bf3d032d086c5bd3a33b10e94db5"
+      sha256 "f7ce8d0dbfb68bd05a48b4075d63319f475f56452b9595c11072777aa604bbdc"
       url "https://github.com/yyZe0122/YunmengZe-Agent/releases/download/v#{version}/ymz_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "9ddb551c1b8a7fef24f8d4d81a1a7a167303bf67a86ae6750682ad658602c7f0"
+      sha256 "4e89cc3c3018b05693d8bd60a123851826a7c93a9b8f390bad287b826efc1e50"
       url "https://github.com/yyZe0122/YunmengZe-Agent/releases/download/v#{version}/ymz_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "9e3a1fcac1f0423620de5acd95b8500ea2ee2b9fbd9f79c0a04713c063f83da7"
+      sha256 "945ac139203f4045dc68200aa3029113914a5133fcfdc9dff10ee9ff36b67f4c"
       url "https://github.com/yyZe0122/YunmengZe-Agent/releases/download/v#{version}/ymz_#{version}_linux_arm64.tar.gz"
     end
   end
